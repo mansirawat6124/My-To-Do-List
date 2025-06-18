@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lavenderblush;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: mistyrose;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.dark-mode .container {
+  background: gray;
+}
+
+h1 {
+  color: hotpink;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+  padding: 10px;
+  margin: 5px 0;
+  width: 70%;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background-color: rgb(137, 36, 87);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  text-align: left;
+}
+
+.dark-mode li {
+  background-color: lightgray;
+}
+
+li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+li button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: lightpink;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  font-style: italic;
+  color: sienna;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My To-Do List</h1>
+
+    <button id="toggleMode">Display Mode</button>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <input type="datetime-local" id="taskDateTime" />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <footer>
+      <p>"Do something today that your future self will thank you for."</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
