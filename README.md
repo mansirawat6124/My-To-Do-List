@@ -12,3 +12,6 @@ A web app where you can:
 4. Click Add 
 
 "Do something today that your future self will thank you for.
+
+# Output 
+![image](https://github.com/user-attachments/assets/a0f7742f-4fed-42f6-83ac-090aba05a634)
